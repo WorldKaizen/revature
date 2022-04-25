@@ -1,0 +1,40 @@
+package Week3.Exercises;
+
+// Java program for iterating the Linklist
+// using for Each loop
+
+import java.util.LinkedList;
+
+public class Ex2 {
+    public static void main(String[] args) {
+
+        // creating a LinkedList of Integer Type
+        LinkedList<Integer> linkedList = new LinkedList<>();
+
+        // Inserting some Integer values to our LinkedList
+        linkedList.add(1);
+        linkedList.add(2);
+        linkedList.add(3);
+        linkedList.add(4);
+        linkedList.add(5);
+
+        // LinkedList after insertions: [1, 2, 3, 4, ,5]
+
+        // Calling the function to iterate our LinkedList
+        iterateUsingForEach(linkedList);
+
+    }
+
+    public static void
+    iterateUsingForEach(LinkedList<Integer> linkedList)
+    {
+
+        System.out.print(
+                "Iterating the LinkedList using for each function : ");
+
+        // Calling the forEach function to iterate through
+        // all the elements inside the Linked List
+        linkedList.forEach(
+                (element) -> System.out.print(element + " "));
+    }
+}
