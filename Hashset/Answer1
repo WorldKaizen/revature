@@ -1,0 +1,16 @@
+package Week3.Exercises.HashSet;
+
+import java.util.*;
+
+public class Ans1 {
+    public static void main(String[] args) {
+        //Create hash set
+        HashSet<Integer> hset = new HashSet<Integer>();
+        //Add elements to hash set
+        hset.add(121);
+        hset.add(111);
+        hset.add(151);
+        //Checking elements in hash set
+        System.out.println("Hash set Elements: "+ hset);
+    }
+}
