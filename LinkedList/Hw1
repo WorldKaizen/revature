@@ -1,0 +1,17 @@
+package Week3.Exercises.LinkedList;
+
+import java.util.LinkedList;
+import java.util.Iterator;
+
+public class Demo1 {
+    public static void main(String[] args) {
+        LinkedList<String> names = new LinkedList<>();
+        names.add(" Rich");
+        names.add("Paul");
+        names.add("Smith");
+        
+        Iterator iterator = names.iterator();
+        while ((iterator.hasNext()));
+        System.out.println();
+    }
+}
