@@ -1,0 +1,28 @@
+package Week3.Exercises.LinkedList;
+
+import java.util.Iterator;
+import java.util.LinkedList;
+
+public class Demo2 {
+    public static void main(String[] args) {
+        LinkedList<String> names = new LinkedList<>();
+        names.add("Mark");
+        names.add("Paul");
+        names.add("Watson");
+        System.out.println(names);
+
+        // adding element at specified position
+        names.add(0, "John");
+        System.out.println(names);
+
+        // second list
+        LinkedList<String> newNames = new LinkedList<>();
+        newNames.add("Rangel");
+        newNames.add("Stacy");
+
+        names.addAll(newNames);
+        System.out.println(names);
+
+        // addFirst()
+        names.addFirst("First");
+        System.out.println(names);
